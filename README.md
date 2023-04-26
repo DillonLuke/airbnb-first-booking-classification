@@ -1,2 +1,4 @@
-# airbnb-first-booking-classification
-In response to a Kaggle challenge hosted by Airbnb, the purpose of this project is to classify the destination country of a user's first booking.
+# Airbnb New User First Booking Classification
+First-time Airbnb users can book a stay in over 34,000+ cities across 190+ countries. To provide more personalized user recommendations, it is import to forecast the destination a user might choose for their first booking. In response to a [Kaggle challenge hosted by Airbnb](https://www.kaggle.com/competitions/airbnb-recruiting-new-user-bookings), the purpose of this project is to classify the destination country of a user's first booking. Destinations include 10 possible countries spanning across North America, Europe, and Australia, some other country beyond these, or no booking at all.
+
+The primary machine learning workflow can be seen in **"Airbnb New User First Booking Classification.ipynb."** This workflow relies on custom classes and functions found in **"custom_sklearn_transformers.py"** and **"airbnb_classification_functions.py"**, respectively. This workflow also relies on features engineered from user session logs, the workflow for which can be seen in **"Session Log Feature Engineering.ipynb."**
